@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <style type="text/css">
+        
+        .container {
+            width: 500px;
+            min-height: 70px;
+            border: 2px solid #000;
+        }
+
+        #popup {
+            position: fixed;
+            width: 500px;
+            box-sizing: border-box;
+            min-height: 70px;
+            /*text-align: center;*/
+            padding: 10px;
+            background-color: silver;
+            top: 10px;
+            left: 550px;
+            display: none;
+            /*display: block;*/            
+        }        
+
+        #popup-address, #popup-comment {
+            display: none;
+        }
+        
+    </style>
+        
+
+</head>
+<body>
+    <div class="container" id="basket">        
+    </div>
+
+    <div class="container" id="products-list">        
+    </div>
+
+    <div id="popup">
+        <div id="popup-basket"></div>
+        <div id="popup-address"></div>
+        <div id="popup-comment"></div>
+        <div id="popup-btn"></div>       
+
+    </div>
+
+    <script src="js_base_lesson7_mod.js"></script>    
+
+</body>
+</html>
